@@ -3,6 +3,8 @@
     margin:0;
     padding:0;
 }
+
+/* header section styles */
 header{
     text-align: center;
     background-image: url('../resources/Banner\ Image.png');
@@ -24,7 +26,6 @@ header{
     font-weight: 400;  
     padding-top:30px;
 }
-
 .header-description{
     color: #FFF;
     text-align: center;
@@ -32,5 +33,38 @@ header{
     font-weight: 900;
     max-width: 600px;
     min-height: 200px; 
+}
 
+/* discount-container section styles */
+.discount-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.discount-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 70px;
+    font-style:normal;
+    font-weight: 700;
+}
+.discount-description{
+    color: #F00;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+.discount-category{
+    color: #070211;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700; 
+}
+.discount-image{
+    width: 500px;
+    height: 300px;
 }
