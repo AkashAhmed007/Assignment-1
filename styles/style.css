@@ -6,7 +6,6 @@
 
 /* header section styles */
 header{
-    text-align: center;
     background-image: url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -120,6 +119,7 @@ header{
     margin-top:30px;
     margin-right: 50px;
 }
+/* location-section styles */
 .location-section{
     background-image: linear-gradient(180deg, rgba(255,0,0,0.1), rgba(255,0,0,0.1));
     background-repeat: no-repeat;
@@ -131,8 +131,7 @@ header{
     gap: 20px;
     width: 50%;
     padding: 30px;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 .location-description{
     font-family: Inter;
@@ -148,6 +147,46 @@ header{
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 20px; 
+}
+
+/* offer-section styles */
+.offer-section{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-offer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 100px;
     
+}
+.new-offer-section h4{
+    
+}
+.new-offer-section h2{
+      
+}
+.new-offer-section p{
+   
+}
+.image-container img{
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 50px;
+}
+.year-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 100px; 
 }
