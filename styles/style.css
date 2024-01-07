@@ -120,3 +120,34 @@ header{
     margin-top:30px;
     margin-right: 50px;
 }
+.location-section{
+    background-image: linear-gradient(180deg, rgba(255,0,0,0.1), rgba(255,0,0,0.1));
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    padding: 30px;
+    margin: 0 auto;
+    
+}
+.location-description{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: bold;
+}
+.common{
+    color:#ff2222;
+}
+.btn-secondary{
+    color:#FFF;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    
+}
