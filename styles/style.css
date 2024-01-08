@@ -6,7 +6,7 @@
 
 /* header section styles */
 header{
-    background:url('/resources/Banner\ Image.png');
+    background:url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
