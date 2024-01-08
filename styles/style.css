@@ -82,7 +82,7 @@ header{
     gap: 20px;
     min-width: 1300px;
     min-height: 600px;
-    margin: 50px 0 50px;
+    margin: 50px 0 70px;
 }
 .party-container{
     display: flex;
@@ -124,7 +124,7 @@ header{
 }
 /* location-section styles */
 .location-section{
-    background-image: linear-gradient(180deg, rgba(255,0,0,0.1), rgba(255,0,0,0.5));
+    background-image: linear-gradient(180deg, #FFE8E8, #ff00001a);
     background-repeat: no-repeat;
     background-position: center;
     display:flex;
@@ -134,9 +134,8 @@ header{
     gap: 20px;
     width: 1300px;
     height: 400px;
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 20px;
-    margin-bottom: 50px;
 }
 .location-description{
     font-family: Inter;
@@ -223,16 +222,13 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     width: 1300px;
     margin: 0 auto;
-    padding: 20px;
-    border: 1px solid red;
 }
 .holiday-container{
     text-align: center;
-    margin: 30px;
-    padding: 30px;
+    margin: 50px;
 }
 .holiday-title{
     font-size: 20px;
@@ -255,9 +251,33 @@ header{
     margin-bottom: 10px;
 }
 .image-container{
-    
+    position: relative;
+    margin-top: 350px;
 }
+.image-1{
+    position: absolute;
+    bottom:50px;
+    left:100px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+}
+.image-2{
+    position: absolute;
+    right: 300px;
+    bottom: 300px;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
 
+}
+.image-3{
+    position: absolute;
+    right:0;
+    bottom:100px;
+    width: 400px;
+    bottom:228px;
+}
 .image-4{
-  
+    width: 100%;
 }
