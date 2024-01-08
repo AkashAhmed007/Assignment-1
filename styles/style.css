@@ -6,9 +6,8 @@
 
 /* header section styles */
 header{
-    background: linear-gradient( to top, rgba(0, 0, 0, 0.2),rgba(0,0,0, 0.5)),url('/resources/Banner\ Image.png');
+    background:url('/resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-size:auto;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -23,12 +22,12 @@ header{
     color: #FFF;
     text-align: center;
     font-size: 40px;
-    font-weight: 400;  
+    font-weight: 700;  
     padding-top:30px;
     
 }
 .header-description{
-    color: #FFF;
+    color:#FFFFFF;
     text-align: center;
     font-size: 70px;
     font-weight: 800;
@@ -127,7 +126,7 @@ header{
 }
 /* location-section styles */
 .location-section{
-    background-image: linear-gradient(180deg, #FFE8E8, #ff00001a);
+    background-image: linear-gradient(to top, rgba(255, 232, 232,0.1), rgba(255, 0, 0, 0.1));
     background-repeat: no-repeat;
     background-position: center;
     display:flex;
@@ -322,4 +321,57 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     gap:5px;
+}
+.subscribe-section{
+    background-image: linear-gradient(to top, rgba(255, 232, 232,0.1), rgba(255, 0, 0, 0.1));
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 1300px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.subscribe-image{
+    width: 100px;
+}
+.subscribe-title{
+    color: #070211;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+}
+.subscribe-description{
+    width: 600px;
+    text-align: center;
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;  
+}
+.user-field{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:50px;
+}
+#email{
+    font-size: 20px;
+    border: none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+.subscribe-button{
+    background-color: #F00;
+    color:#FFF;
+    border: none;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    font-size: 20px;
+    padding: 10px;
 }
